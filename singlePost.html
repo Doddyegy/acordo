@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>acordo | Mobile HTML/CSS Portfolio Template</title>
+<!-- meta tags start -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Keywords" content="acordo, premium, mobile, template, HTML, Css" />
+<meta name="Description" content="Premium mobile HTML/CSS template." />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<!-- meta tags end -->
+
+<!-- favorite icon starts -->
+<link rel="shortcut icon" href="images/common/favicon.ico" type="image/x-icon" />
+<!-- favorite icon ends -->
+
+<!-- Google fonts start -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,300,600,700' rel='stylesheet' type='text/css'>
+<!-- Google fonts end -->
+
+<!-- CSS files start -->
+<link href="css/framework.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/colorbox.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/elements.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/responsive.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="css/hidpi.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="css/skin.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
+<!-- CSS files end -->
+
+
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+<!-- JavaScript files start -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/effects.jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/jquery.nivo-slider.min.js"></script>
+<script type="text/javascript" src="js/jquery.colorbox.min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+
+
+<!-- JavaScript files end -->
+</head>
+<body>
+<!-- sidebar wrapper starts -->
+<div class="sidebarWrapper">
+  <form class="sidebarSearchForm" method="get">
+    <fieldset>
+      <input type="text" class="sidebarSearchField" name="s" value="Search..." data-placeholder="Search..."/>
+    </fieldset>
+  </form>
+  <!-- main menu outer wrapper starts -->
+  <div class="mainMenuOuterWrapper">
+    <ul class="mainMenuWrapper">
+      <li class="menuShop currentPage"><a class="home" href="javascript:void(0);" >Home</a> </li>
+      <li class="menuUser"><a class="about" href="javascript:void(0);" >About</a> </li>
+      <li class="menuBulb"><a class="faq" href="javascript:void(0);" >FAQ Page</a></li>
+      <li class="menuStack"><a class="portfolio" href="javascript:void(0);" >Portfolio Two</a></li>
+      <li class="menuPen"><a class="blog" href="javascript:void(0);" >Blog</a> </li>
+      <li class="menuMail"><a class="contact" href="javascript:void(0);" >Contact</a></li>
+    </ul>
+  </div>
+  <!-- main menu outer wrapper ends --> 
+</div>
+<!-- sidebar wrapper ends --> 
+
+<!-- website wrapper starts -->
+<div class="websiteWrapper"> 
+  
+  <!-- header outer wrapper starts -->
+  <div class="headerOuterWrapper"> 
+    <!-- header outer wrapper starts -->
+    <div class="headerOuterWrapper">
+      <div class="headerWrapper"> <a href="index.html" class="mainLogo"><img src="images/common/mainLogo.png" alt=""/></a> <a href="singlePost.html" class="mainMenuButton"></a></div>
+    </div>
+    <!-- header outer wrapper ends --> 
+  </div>
+  <!-- header outer wrapper ends --> 
+  
+  <!-- page wrapper starts -->
+  <div class="pageWrapper singlePostPageWrapper"> 
+    
+    <div id="single_post">
+
+      
+    </div>
+    <!-- post links wrapper ends --> 
+    <!-- comments section wrapper starts -->
+    <div class="commentsSectionWrapper">
+      
+      <div id="comments" class="commentsWrapper"> 
+        <!--<h4 class="commentsTitle">2 Comments:</h4>      -->
+      </div>  
+      
+      <a href="javascript:void(0);" id="more_comments">View more comments ..</a>
+      
+
+
+      <!-- coments wrapper ends --> 
+      <!-- comments form wrapper starts -->
+      <div class="commentsFormWrapper">
+        <h4 class="commentsTitle commentsFormTitle">Leave a Comment:</h4>
+        <!--<form action="singlePost.html#" method="post" class="commentsForm" id="commentsForm">-->
+        
+        <form role="form" name="commentsForm" class="commentsForm" id="commentsForm" method="post">  
+          <fieldset>
+            <div class="formFieldWrapper">
+              <label for="commentNameField">Name:</label>
+              <input type="text" name="commentNameField" value="" class="commentField requiredField commentNameField" id="commentNameField" data-placeholder=""/>
+            </div>
+                        
+            <div class="formTextareaWrapper">
+              <label for="commentCommentTextarea">Comment:</label>
+              <textarea name="commentCommentTextarea" value="" class="commentTextarea requiredField commentCommentTextarea" id="commentCommentTextarea" data-placeholder=""></textarea>
+            </div>
+
+            <div class="formSubmitButtonErrorsWrapper"> 
+              
+              <span class="formValidationError" id="commentNameFieldError">Your name is required.</span>               
+              <span class="formValidationError" id="commentCommentTextareaError">Comment is required.</span> 
+
+              <span class="formValidationError"  id="success">Your comment added successfully.</span> 
+              
+            </div>
+
+            <input type="submit" class="buttonWrapper commentSubmitButton" id="commentSubmitButton" value="Submit Comment" data-form-id="commentsForm"/> 
+            
+            <input type="hidden" name="formIsReady" value="true"  id="formIsReady" />
+          </fieldset>
+        </form>
+      </div>
+      <!-- coments form wrapper ends --> 
+    </div>
+    <!-- comments section wrapper ends --> 
+    
+  </div>
+  <!-- page wrapper ends --> 
+  
+  <!-- footer wrapper starts -->
+  <div class="footerWrapper"> 
+    <!-- copyright wrapper starts -->
+    <div class="copyrightWrapper"> 
+      <!-- copyright starts --> 
+      <span class="copyright">&copy; copyright acordo.</span> 
+      <!-- copyright ends --> 
+      <!-- back to top button starts --> 
+      <a href="singlePost.html" class="backToTopButton"></a> 
+      <!-- back to top button ends --> 
+    </div>
+    <!-- copyright wrapper ends --> 
+  </div>
+  <!-- footer wrapper ends --> 
+  
+</div>
+<!-- website wrapper ends --> 
+
+<!-- preloader starts -->
+<div class="preloader"></div>
+<!-- preloader ends -->
+
+<script type="text/javascript" src="scripts/general.js"></script>
+<script type="text/javascript" src="scripts/single_blog.js"></script>
+
+
+
+</body>
+</html>
