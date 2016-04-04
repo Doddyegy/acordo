@@ -28,7 +28,7 @@ function loadPortfolios(data)
                     
                     $('#portfolios').append('<div class="portfolioFilterableItemWrapper" data-type="'+this.tags+'"> '
                         +'<a href="javascript:void(0);" onclick="before_navigate('+this.id+');" class="portfolioFilterableItemImageWrapper">'  
-                        +'<img src="http://localhost'+this.path+'" alt=""/>'
+                        +'<img src="http://marketingleader.om'+this.path+'" alt=""/>'
                         +'</a>'
                         +'<div class="portfolioFilterableItemInfoWrapper">'
                         +'<h4 class="portfolioFilterableItemTitle">'+this.title+'</h4>'
@@ -66,7 +66,7 @@ $(window).scroll(function () {
 
                 $('#portfolios').append('<div class="portfolioFilterableItemWrapper" data-type="'+this.tags+'"> '
                         +'<a href="javascript:void(0);" onclick="before_navigate('+this.id+');" class="portfolioFilterableItemImageWrapper">'  
-                        +'<img src="http://localhost'+this.path+'" alt=""/>'
+                        +'<img src="http://marketingleader.om'+this.path+'" alt=""/>'
                         +'</a>'
                         +'<div class="portfolioFilterableItemInfoWrapper">'
                         +'<h4 class="portfolioFilterableItemTitle">'+this.title+'</h4>'
