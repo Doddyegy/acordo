@@ -28,7 +28,7 @@ function loadBlogs(data)
 
                     $('.blogPostsWrapper').append('<div class="smallPostWrapper">'
                         +'<a href="" class="postThumbnailWrapper">'  
-                        +'<img src="http://localhost'+this.path+'" alt=""/>'
+                        +'<img src="http://marketingleader.om'+this.path+'" alt=""/>'
                         +'</a>'
                         +'<div class="postExcerptWrapper">'
                         +'<h4 class="smallPostTitle">"'+this.title+'"</h4>'
@@ -69,7 +69,7 @@ $(window).scroll(function () {
 
                 $('.blogPostsWrapper').append('<div class="smallPostWrapper">'
                     +'<a href="" class="postThumbnailWrapper">'  
-                    +'<img src="http://localhost'+this.path+'" alt=""/>'
+                    +'<img src="http://marketingleader.om'+this.path+'" alt=""/>'
                     +'</a>'
                     +'<div class="postExcerptWrapper">'
                     +'<h4 class="smallPostTitle">"'+this.title+'"</h4>'
