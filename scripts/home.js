@@ -27,7 +27,7 @@ function loadAllSliders(data)
                 $(jQuery.parseJSON(JSON.stringify(list.list))).each(function(){
 
                     $('#mainSlider').append('<a href="index.html">'
-                        +'<img src="http://localhost'+this.path+'" alt="" />'  
+                        +'<img src="http://marketingleader.om'+this.path+'" alt="" />'  
                         +'</a>'
                     );                                    
                 });
