@@ -29,7 +29,7 @@ function loadPortfolio(data)
 
                 $('#single_project').append('<div class="pageContentWrapper">'
                     +'<div class="singleProjectImageWrapper">'                                    
-                    +'<img src="http://localhost'+portfolio.portfolio["path"]+'" class="singleProjectImage" alt=""/> '
+                    +'<img src="http://marketingleader.om'+portfolio.portfolio["path"]+'" class="singleProjectImage" alt=""/> '
                     +'</div>'
                     +'<div class="pageContentWrapper">'
                     +'<h3 class="pageTitle">'+portfolio.portfolio["title"]+'</h3>'
@@ -37,7 +37,7 @@ function loadPortfolio(data)
                     +'<div class="pageBreak"></div>'
                     +'</div>'
                     +'<div class="singleProjectItemButtonsWrapper">'
-                    +'<a href="http://localhost'+portfolio.portfolio["path"]+'" class="singleProjectExpandButton">expand</a>'
+                    +'<a href="http://marketingleader.om'+portfolio.portfolio["path"]+'" class="singleProjectExpandButton">expand</a>'
                     +'</div>'
                 );                                                    
             }
