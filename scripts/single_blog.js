@@ -30,7 +30,7 @@ function loadBlog(data)
                 $('#single_post').append('<div class="singlePostContentWrapper"> '
                     +'<h3 class="pageTitle">'+blog.blog["title"]+'</h3>'
                     +'<div class="pageSpacer"></div>'
-                    +'<img src="http://localhost'+blog.blog["path"]+'" class="largeImage" alt=""/>'  
+                    +'<img src="http://marketingleader.om'+blog.blog["path"]+'" class="largeImage" alt=""/>'  
                     +'<p>'+blog.blog["desc"]+'</p>'                    
                     +'<div class="textBreak"></div>'
                     +'</div>'
