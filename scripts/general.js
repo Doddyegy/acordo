@@ -1,5 +1,4 @@
-//var APILink = 'http://localhost:51923/';
-var APILink = 'http://localhost/acordo/';
+var APILink = 'http://marketingleader.om/demo10/';
 var hidden = false;
 
 var windowWidth = $(window).width() - 48;
