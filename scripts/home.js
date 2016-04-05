@@ -17,7 +17,7 @@ function loadAllSliders(data)
     
     $.ajax({
         type: "POST",
-        url: APILink + 'home/getSliders',                
+        url: APILink + 'home/getsliders',                
         dataType: "JSON",
 
         success: function(list){
